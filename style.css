@@ -96,3 +96,56 @@ p {
 .botton-margin {
     margin-bottom: 40px;
 }
+
+.left, .left>p {
+    text-align: left;
+}
+
+.center, .center>p {
+    text-align: center;
+}
+
+.ligature {
+    max-width: 150px;
+    margin-left: 80px;
+    text-align: right;
+    display: inline-block;
+}
+
+.justified, .justified>p {
+    text-align: justified;
+}
+
+.boxblue {
+    border: solid 0.5px blue;
+}
+
+
+.boxblue>h2 {
+    color: blue;
+}
+
+button {
+    background-color: #4a90e2;
+    padding: 10px 50px 10px 50px;
+    margin: 2rem 4rem 2rem 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.messy>h2, .inconsistent>h2  {
+    color: red;
+}
+
+.messy>p, .inconsistent>p  {
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.inconsistent>button {
+    background-color: #4a90e2;
+    padding: 10px 50px 10px 50px;
+    margin: 0rem 4rem 0rem 4rem;
+    color: white;
+    font-weight: 700;
+}

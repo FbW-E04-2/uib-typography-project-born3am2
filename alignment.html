@@ -25,7 +25,7 @@
         <h1>Text Alignment </h1>
     </div>
 
-    <div class="box" >
+    <div class="box left" >
     <h2>Left Alignment</h2>
 
     <p>Left-aligned text is the standard because it gives the reader a
@@ -34,17 +34,43 @@
         </p>
     </div>
 
-    <div class="box" >
+    <div class="box center" >
         <h2>Center Alignment</h2>
     
        <p>Center-aligned text doesn’t have that anchor, so it’s easier for the
         eye to get lost when it tries to jump to the next line. Reserve it for
         special kinds of content, like poems, lyrics, and headings.
         </p>
+    </div>
+
+    <div class="box right" >
+        <h2>Right Alignment</h2>
     
-    <div class="box1"></div>
+       <p>Only use right-aligned text when it makes sense for the layout. For
+        example, a caption for an image:
+        
+        <div>
+        <div class="ligature" >
+        These letters are touching. This is called a ligature.    
+        </div>
+
+        <img src="/img/ligature.svg" alt="ligature image">    
 
         </div>
 
+        Of course, if you’re publishing content in a language that’s read
+        right-to-left, that’s another story...</p>      
+    </div>
+
+    <div class="box justified" >
+        <h2>Justified Alignment</h2>
+    
+       <p>Justified text requires a good hyphenation engine. Without an
+        intelligent way to split long words across lines, you get big spaces
+        between words, which makes it harder to scan the text. Most browsers
+        don’t have good built-in hyphenation engines.</p>
+        
+
+    </div>
 </body>
 </html>
