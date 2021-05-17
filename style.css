@@ -149,3 +149,11 @@ button {
     color: white;
     font-weight: 700;
 }
+
+.line-lenght>h2 {
+    color: blue;
+} 
+
+.line-lenght>h2, .line-lenght>p {
+    text-align: center;
+}
