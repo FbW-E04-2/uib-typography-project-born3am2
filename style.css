@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    color: rgb(70, 182, 211);
+    
+}
+
+nav {
+    background-color: gray;
+}
+
+/* LINKS */
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(206, 197, 197);
+}
+
+a:hover {
+    background-color:whitesmoke;
+    padding: 1rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700 ;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+/* CONTENT */
+
+
+.box0 {
+    background-color: rgb(149, 145, 145);
+}
+
+h1 {
+    color: white ;
+    text-align: center;
+    line-height:12rem;
+}
+
+
+.box {
+    max-width: 560px;
+    margin: auto;
+    line-height: 3rem;
+    border: solid 1px gray;
+    padding: 5%;
+    margin-top: 6rem;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.gothic {
+    font-family: 'UnifrakturMaguntia';
+
+}
+
+.serif {
+    font-family: 'Rufina', serif;;
+}
+
+.boxred {
+    border: red solid 1px;
+    max-width: 560px;
+    margin: auto;
+    line-height: 3rem;
+    padding: 5%;
+    margin-top: 6rem;
+}
+
+.indent {
+    text-indent: 40px;
+}
+
+.botton-margin {
+    margin-bottom: 40px;
+}
+
+.left, .left>p {
+    text-align: left;
+}
+
+.center, .center>p {
+    text-align: center;
+}
+
+.ligature {
+    max-width: 150px;
+    margin-left: 80px;
+    text-align: right;
+    display: inline-block;
+}
+
+.justified, .justified>p {
+    text-align: justified;
+}
+
+.boxblue {
+    border: solid 0.5px blue;
+}
+
+
+.boxblue>h2 {
+    color: blue;
+}
+
+button {
+    background-color: #4a90e2;
+    padding: 10px 50px 10px 50px;
+    margin: 2rem 4rem 2rem 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.messy>h2, .inconsistent>h2  {
+    color: red;
+}
+
+.messy>p, .inconsistent>p  {
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.inconsistent>button {
+    background-color: #4a90e2;
+    padding: 10px 50px 10px 50px;
+    margin: 0rem 4rem 0rem 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.line-lenght>h2 {
+    color: blue;
+} 
+
+.line-lenght>h2, .line-lenght>p {
+    text-align: center;
+}
